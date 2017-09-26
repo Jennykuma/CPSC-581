@@ -112,6 +112,15 @@
     <Resource Include="images\moana.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="sounds\moanaTheme.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\peacefulForest.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\toccataandfugueinD.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Resource Include="images\dress.png" />
     <Resource Include="images\spaceship.png" />
     <Resource Include="images\hp.png" />
@@ -121,6 +130,18 @@
     <Resource Include="images\lisa.png" />
     <Resource Include="images\bubble.png" />
     <Resource Include="images\corgi_mouthclosed.png" />
+    <Resource Include="images\space.png" />
+    <Resource Include="images\camping.png" />
+    <Resource Include="images\walkingtrail.png" />
+    <Resource Include="images\grandstaircase.png" />
+    <Resource Include="images\underwater.png" />
+    <Resource Include="images\yarn.png" />
+    <Content Include="sounds\canoninD.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\hpTheme.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="sounds\moonlightsonata14.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

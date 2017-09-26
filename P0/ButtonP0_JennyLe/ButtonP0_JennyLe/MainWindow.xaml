@@ -6,14 +6,14 @@
         xmlns:local="clr-namespace:ButtonP1_JennyLe"
         mc:Ignorable="d"
         Title="Lisa" Height="400" Width="600"
-        ResizeMode="CanMinimize">
+        ResizeMode="CanMinimize" Background="{x:Null}">
     <Window.Resources>
         <Storyboard x:Key="lisa_storyboard">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="27.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="54.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="82"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="107.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="112.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="136.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="166"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="187.5"/>
@@ -31,11 +31,11 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="124.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="99.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="81"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="67"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="60"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="78"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="91.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="104.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="129.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="136.75"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="106"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="88"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="68.5"/>
@@ -47,7 +47,7 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.886"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.795"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
@@ -111,17 +111,17 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="376"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="377.125"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="394.125"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="376.75"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="622"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="610"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="622"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="622"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="124.75"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="49.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="44.25"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="81.625"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="101.875"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="91.375"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="101.875"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="101.875"/>
             </DoubleAnimationUsingKeyFrames>
@@ -276,17 +276,17 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.37"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.14"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1.243"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1.243"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1.405"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.243"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.575"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.646"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1.385"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1.385"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1.521"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.385"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
@@ -316,7 +316,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1.1323191793140377"/>
             </DoubleAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.HorizontalAlignment)" Storyboard.TargetName="corgi">
-                <DiscreteObjectKeyFrame KeyTime="0:0:0.9" Value="{x:Static HorizontalAlignment.Left}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8" Value="{x:Static HorizontalAlignment.Left}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="{x:Static HorizontalAlignment.Left}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:1.1" Value="{x:Static HorizontalAlignment.Left}"/>
             </ObjectAnimationUsingKeyFrames>
@@ -395,6 +395,10 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="dress">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-141.75"/>
             </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="corgi">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="7.568"/>
+            </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="stickers2_storyboard">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="icecream">
@@ -426,34 +430,39 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="moana">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-315.375"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-315.375"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="moana">
                 <EasingDoubleKeyFrame KeyTime="0" Value="218.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="218.25"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="moana">
                 <EasingDoubleKeyFrame KeyTime="0" Value="64.359"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="64.359"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="622"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="625.75"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="503.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="625.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="503.5"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="101.875"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="78.25"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="112"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="78.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="112"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-1.304"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-1.304"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="exclaimation">
+                <EasingDoubleKeyFrame KeyTime="0" Value="494"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="528.75"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="357.75"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="248.25"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="exclaimation">
+                <EasingDoubleKeyFrame KeyTime="0" Value="13"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="155.25"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="98.25"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="149.25"/>
@@ -490,19 +499,35 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1.356"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.356"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="11.098"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="7.579"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="11.098"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="7.579"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="dress">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-21"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="dress">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-119.25"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="icecream">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.7"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="pumpkin">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.7"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="oilers">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.7"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="moana">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.7"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="stickers3_storyboard">
@@ -577,12 +602,12 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="exclaimation">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="248.25"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="254.625"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="447.375"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="447.375"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="exclaimation">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="149.25"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="106.875"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-8.625"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-8.625"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="fire">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1.156"/>
@@ -675,6 +700,22 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="dress">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-126"/>
             </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="fire">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.7"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="moana">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="oilers">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="icecream">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="pumpkin">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="stickers4_storyboard">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="pumpkin">
@@ -757,61 +798,63 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="sweat">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-11.989"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-36.014"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.675" Value="-36.014"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="sweat">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="41.156"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="203.531"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="161.906"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.675" Value="203.531"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="161.906"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="sweat">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="189.013"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-8.612"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="36.763"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.675" Value="-8.612"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="36.763"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="spaceship">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1.297"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.113"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.162"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.192"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1.153"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1.297"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.505"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1.296"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1.403"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1.297"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="spaceship">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-171.75"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-191.75"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-139.25"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-82.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-27.75"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="36.75"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="92.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-3.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="55.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="99.25"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="118.5"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="spaceship">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1.369"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.213"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.23"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.29"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1.264"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1.369"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.461"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1.455"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1.411"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1.369"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="spaceship">
-                <EasingDoubleKeyFrame KeyTime="0" Value="292.875"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="309.875"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="298.625"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="265.875"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="303"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="267.375"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="281.625"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="286"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="270.875"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="275.125"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="293.625"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="spaceship">
-                <EasingDoubleKeyFrame KeyTime="0" Value="48.85"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="48.85"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="48.85"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="48.85"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="48.85"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="69"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="239.715"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="222.425"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="241.91"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="241.43"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="220.413"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="242.965"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="246.451"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="253.089"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
@@ -825,24 +868,13 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1.394"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="exclaimation">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="120.75"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="162"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="exclaimation">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="99.75"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="2.25"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="exclaimation">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="13.697"/>
-            </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="sweat">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.601"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.675" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="sweat">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.673"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.675" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="dress">
                 <EasingDoubleKeyFrame KeyTime="0" Value="16.5"/>
@@ -879,6 +911,31 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="7.389"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="7.389"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="11.832"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="pumpkin">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="icecream">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="oilers">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="moana">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hp">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="fire">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="dress">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.7"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.3"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="stickers5_storyboard">
@@ -955,7 +1012,7 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="266.25"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="spaceship">
-                <EasingDoubleKeyFrame KeyTime="0" Value="69"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="253.089"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="spaceship">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1.369"/>
@@ -980,12 +1037,16 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="147.681"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="147.681"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="149.194"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="149.379"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="148.89"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="149.073"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="85.402"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="85.402"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="107.233"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="115.718"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="93.305"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="107.233"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="exclaimation">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-162.75"/>
@@ -1003,19 +1064,25 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="89.25"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="139.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="189"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="203"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="87"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="189"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="crochet">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-7.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-4.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-18"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-22"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-18"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="crochet">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="37.658"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="82.676"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="95.98"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="95.98"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="95.98"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
@@ -1023,43 +1090,83 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.737"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.627"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.918"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.737"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="sweat">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-150"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-262.125"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-270.107"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-272.125"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-262.125"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="sweat">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="250.125"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="214.39285714285714"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="211.393"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="208.125"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="250.125"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="sweat">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="95.986"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="95.986"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="sweat">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.623"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.623"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="sweat">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.724"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.724"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="pumpkin">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="icecream">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="oilers">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="moana">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="fire">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hp">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="dress">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="spaceship">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="end_storyboard">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="pumpkin">
                 <EasingDoubleKeyFrame KeyTime="0" Value="84.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="84.75"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="pumpkin">
                 <EasingDoubleKeyFrame KeyTime="0" Value="71.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="71.25"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="pumpkin">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-16.699"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-16.699"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="icecream">
                 <EasingDoubleKeyFrame KeyTime="0" Value="23.199"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="23.199"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="23.199"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="icecream">
                 <EasingDoubleKeyFrame KeyTime="0" Value="216.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="216.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="216.75"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="icecream">
                 <EasingDoubleKeyFrame KeyTime="0" Value="96.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="96.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="96.75"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="oilers">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-14.621"/>
@@ -1104,7 +1211,7 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="266.25"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="spaceship">
-                <EasingDoubleKeyFrame KeyTime="0" Value="69"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="253.089"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="spaceship">
                 <EasingDoubleKeyFrame KeyTime="0" Value="293.625"/>
@@ -1206,6 +1313,51 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-13.286"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-13.286"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-13.286"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="pumpkin">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="icecream">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="oilers">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="moana">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="fire">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hp">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="dress">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="spaceship">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="crochet">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="reset_storyboard">
@@ -1398,6 +1550,9 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="39.75"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="42.75"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="53.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="382.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="370.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="41.25"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="hp">
                 <EasingDoubleKeyFrame KeyTime="0" Value="266.25"/>
@@ -1409,9 +1564,12 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="435.75"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="480"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="529.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="252.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-38.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-66.5"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="spaceship">
-                <EasingDoubleKeyFrame KeyTime="0" Value="69"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="253.089"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="54.487"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="64.889"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-122.753"/>
@@ -1531,6 +1689,9 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="255.75"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="342.75"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="403.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-251.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-243.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-47.5"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="crochet">
                 <EasingDoubleKeyFrame KeyTime="0" Value="189"/>
@@ -1546,6 +1707,9 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="495"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="562.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="596.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="630.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-23.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-24.75"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="corgi">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-1.248"/>
@@ -1592,18 +1756,23 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="sweat">
                 <EasingDoubleKeyFrame KeyTime="0" Value="95.986"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="95.986"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="sweat">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-454.278"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-436.278"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-106.278"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="sweat">
-                <EasingDoubleKeyFrame KeyTime="0" Value="264.625"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-12.375"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-13.375"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="sweat">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0.623"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.623"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="sweat">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0.724"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.724"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="lisa">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-13.286"/>
@@ -1654,6 +1823,7 @@
             </DoubleAnimationUsingKeyFrames>
             <PointAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Storyboard.TargetName="sweat">
                 <EasingPointKeyFrame KeyTime="0" Value="1.527,1.451"/>
+                <EasingPointKeyFrame KeyTime="0:0:0.1" Value="1.527,1.451"/>
             </PointAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="bubble">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-115.5"/>
@@ -1868,8 +2038,15 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.MinWidth)" Storyboard.TargetName="window">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
+            <BooleanAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.ClipToBounds)" Storyboard.TargetName="crochet">
+                <DiscreteBooleanKeyFrame KeyTime="0" Value="False"/>
+                <DiscreteBooleanKeyFrame KeyTime="0:0:0.1" Value="False"/>
+            </BooleanAnimationUsingKeyFrames>
         </Storyboard>
     </Window.Resources>
+    <Window.Foreground>
+        <ImageBrush/>
+    </Window.Foreground>
     <Window.Triggers>
         <EventTrigger RoutedEvent="FrameworkElement.Loaded">
             <!--<BeginStoryboard Storyboard="{StaticResource reset_storyboard}"/>-->
@@ -1882,12 +2059,12 @@
             <!--<BeginStoryboard Storyboard="{StaticResource lisa_storyboard}"/>-->
         </EventTrigger>
     </Window.Triggers>
-    <Grid Background="#FFFFD1E8">
+    <Grid x:Name="window1" Background="{x:Null}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="549*"/>
             <ColumnDefinition Width="46*"/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="corgi" HorizontalAlignment="Left" Height="154" Margin="-166,2,0,0" VerticalAlignment="Top" Width="148" Source="images/corgi_new.png" RenderTransformOrigin="0.5,0.5" MouseDown="Corgi_MouseDown" MouseEnter="Corgi_MouseEnter" MouseLeave="Corgi_MouseLeave">
+        <Image x:Name="corgi" HorizontalAlignment="Left" Height="154" Margin="-166,2,0,0" VerticalAlignment="Top" Width="148" Source="images/corgi_new.png" RenderTransformOrigin="0.5,0.5" MouseDown="Corgi_MouseDown" MouseEnter="Corgi_MouseEnter" MouseLeave="Corgi_MouseLeave" OpacityMask="Black">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
