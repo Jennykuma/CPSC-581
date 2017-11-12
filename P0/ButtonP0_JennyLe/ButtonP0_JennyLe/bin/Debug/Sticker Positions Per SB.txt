@@ -1,0 +1,111 @@
+- StickerSB
+pumpkin:
+- angle: -16.699
+- x: 84.75
+- y: 71.25
+icecream:
+- angle: 23.199
+- x: 216.75
+- y: 96.75
+oilers:
+- angle: -14.621
+- x: 427.5
+- y: -7.5
+moana:
+- angle: 64.359
+- x: -315.375
+- y: 218.25
+corgi:
+- angle: 7.568
+- x: 622
+- y: 101.875
+exclamation:
+- angle: 17.819
+///////////////////////////////
+-Stickers2SB
+fire:
+- angle: 28.943
+- x: 658.125
+- y: 80.625
+- x (scale): 1.156
+- y (scale): 1.219
+
+corgi:
+- angle: 7.579
+- x: 503.5
+- y: 112
+
+exclamation:
+- angle: 0
+- x: 248.25
+- y: 149.25
+///////////////////////////////
+-Stickers3SB
+hp:
+- angle: 9.323
+- x: 5.25
+- y: 266.25
+corgi:
+- angle: -14.397
+- x: 365.8
+- y: 86.039 
+sweat:
+- angle: -36.014
+- x: 14.531
+- y: 206.638
+- x (scale): 0.688
+- y (scale): 0.712
+//////////////////////////////
+-Stickers4SB
+rocketship:
+- angle: 253.089
+- x: 293.625
+- y: 118.5
+- x (scale): 1.369
+- y (scale): 1.297
+dress:
+- angle: 11.832
+- x: 3.34
+- y: 99.273
+- x (scale): 1.385
+- y (scale): 2.093
+corgi:
+- angle: -0.336
+- x: 147.681
+- y: 85.402
+sweat:
+- angle: -36.014
+- x: 161.906
+- y: 36.763
+//////////////////////////////
+-Stickers5SB
+crochet ball:
+- angle: 95.98
+- x: -18
+- y: 189
+sweat:
+- angle: 95.986
+- x: -262.125
+- y: 250.125
+- x (scale): 0.623
+- y (scale): 0.724
+corgi:
+- angle: -1.248
+- x: 149.194
+- y: 107.233
+- x (scale): 1.318
+- y (scale): 0.737
+exclamation:
+- angle: -20.165
+- x: -270.75
+- y: 119.25
+/////////////////////////////
+-end_storyboard
+lisa:
+- angle: -13.286
+- x: 9.75
+- y: 192.375
+- x (scale): 1.123
+- y (scale): 1.239
+
+

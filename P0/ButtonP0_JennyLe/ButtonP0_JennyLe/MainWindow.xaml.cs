@@ -49,7 +49,7 @@ namespace ButtonP1_JennyLe
         {
             InitializeComponent(); // Initialize
             peacefulForest.Play(); // Play .wav file
-            
+
             // Change the background to the forest image
             this.Background = new ImageBrush(new BitmapImage(new Uri(@"C:\Users\Jennykuma\Desktop\Fourth Year 2017-2018\CPSC 581\CPSC-581\P0\ButtonP0_JennyLe\ButtonP0_JennyLe\images\walkingtrail.png")));
 
@@ -60,6 +60,7 @@ namespace ButtonP1_JennyLe
 
         private void Corgi_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            String url = AppDomain.CurrentDomain.BaseDirectory;
             if (SBcounter == 0) // If corgi is clicked
             {
                 moanaTheme.Play(); // Play .wav file
@@ -72,7 +73,7 @@ namespace ButtonP1_JennyLe
                 fugenInD.Play(); // Play .wav file
 
                 // Change the background to the camping image
-                this.Background = new ImageBrush(new BitmapImage(new Uri(@"C:\Users\Jennykuma\Desktop\Fourth Year 2017-2018\CPSC 581\CPSC-581\P0\ButtonP0_JennyLe\ButtonP0_JennyLe\images\camping.png")));
+                this.Background = new ImageBrush(new BitmapImage(new Uri(url +"images\\camping.png")));
 
                 Storyboard stickers2SB = this.Resources["stickers2_storyboard"] as Storyboard; // Create the storyboard object
                 stickers2SB.Begin(); // Play the storyboard
@@ -83,7 +84,7 @@ namespace ButtonP1_JennyLe
                 hpTheme.Play(); // Play .wav file
 
                 // Change the background to the grand staircase image
-                this.Background = new ImageBrush(new BitmapImage(new Uri(@"C:\Users\Jennykuma\Desktop\Fourth Year 2017-2018\CPSC 581\CPSC-581\P0\ButtonP0_JennyLe\ButtonP0_JennyLe\images\grandstaircase.png")));
+                this.Background = new ImageBrush(new BitmapImage(new Uri(url + "images\\grandstaircase.png")));
 
                 Storyboard stickers3SB = this.Resources["stickers3_storyboard"] as Storyboard; // Create the storyboard object
                 stickers3SB.Begin(); // Play the storyboard
@@ -94,7 +95,7 @@ namespace ButtonP1_JennyLe
                 canonInD.Play(); // Play the .wav file
 
                 // Change the background to the space image
-                this.Background = new ImageBrush(new BitmapImage(new Uri(@"C:\Users\Jennykuma\Desktop\Fourth Year 2017-2018\CPSC 581\CPSC-581\P0\ButtonP0_JennyLe\ButtonP0_JennyLe\images\space.png")));
+                this.Background = new ImageBrush(new BitmapImage(new Uri(url + "images\\space.png")));
 
                 Storyboard stickers4SB = this.Resources["stickers4_storyboard"] as Storyboard; // Create the storyboard object
                 stickers4SB.Begin(); // Play the storyboard
@@ -103,7 +104,7 @@ namespace ButtonP1_JennyLe
             } else if (SBcounter == 4)
             {
                 // Change the image to the yarn image
-                this.Background = new ImageBrush(new BitmapImage(new Uri(@"C:\Users\Jennykuma\Desktop\Fourth Year 2017-2018\CPSC 581\CPSC-581\P0\ButtonP0_JennyLe\ButtonP0_JennyLe\images\yarn.png")));
+                this.Background = new ImageBrush(new BitmapImage(new Uri(url + "images\\yarn.png")));
 
                 Storyboard stickers5SB = this.Resources["stickers5_storyboard"] as Storyboard; // Create the storyboard object
                 stickers5SB.Begin(); // Play the storyboard
@@ -114,7 +115,7 @@ namespace ButtonP1_JennyLe
                 sonataNo14.Play(); // Play the .wav file
 
                 // Change the background to the underwater image
-                this.Background = new ImageBrush(new BitmapImage(new Uri(@"C:\Users\Jennykuma\Desktop\Fourth Year 2017-2018\CPSC 581\CPSC-581\P0\ButtonP0_JennyLe\ButtonP0_JennyLe\images\underwater.png")));
+                this.Background = new ImageBrush(new BitmapImage(new Uri(url + "images\\underwater.png")));
 
                 Storyboard endSB = this.Resources["end_storyboard"] as Storyboard; // Create the storyboard object
                 endSB.Begin(); // Play the storyboard
@@ -139,7 +140,8 @@ namespace ButtonP1_JennyLe
             peacefulForest.Play(); // Play the .wav file
 
             // Change the background to the forest image
-            this.Background = new ImageBrush(new BitmapImage(new Uri(@"C:\Users\Jennykuma\Desktop\Fourth Year 2017-2018\CPSC 581\CPSC-581\P0\ButtonP0_JennyLe\ButtonP0_JennyLe\images\walkingtrail.png")));
+            String url = AppDomain.CurrentDomain.BaseDirectory;
+            this.Background = new ImageBrush(new BitmapImage(new Uri(url + "images\\walkingtrail.png")));
 
             Storyboard lisaSB = this.Resources["lisa_storyboard"] as Storyboard; // Create the storyboard object
             lisaSB.Begin(); // Play the storyboard
