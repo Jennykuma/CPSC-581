@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class CameraMovement : MonoBehaviour
 {
     public Transform vrCamera;
+    public GameObject ControlPanel;
     public GameObject IntroPanel;
     public GameObject SimIntroPanel;
     public GameObject CataloguePanel;
@@ -22,7 +23,8 @@ public class CameraMovement : MonoBehaviour
 
     private Vector3 initPoint;
 
-    static bool Intro = true;
+    static bool Control = true;
+    static bool Intro = false;
     static bool SimIntro = false;
 
     // Use this for initialization
@@ -31,11 +33,20 @@ public class CameraMovement : MonoBehaviour
         //Get the start point
         song.Play();
         initPoint = transform.position;
-        IntroPanel.SetActive(true);
+        ControlPanel.SetActive(true);
+        IntroPanel.SetActive(false);
         SimIntroPanel.SetActive(false);
         CataloguePanel.SetActive(false);
         LillasenImage.SetActive(false);
         InstructionsPanel.SetActive(false);
+    }
+
+    public void SwitchToIntroPanel()
+    {
+        Control = false;
+        ControlPanel.SetActive(false);
+        Intro = true;
+        IntroPanel.SetActive(true);
     }
 
     public void SwitchToSimPanel ()

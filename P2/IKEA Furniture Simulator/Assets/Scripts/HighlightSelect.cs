@@ -112,7 +112,8 @@ public class HighlightSelect : MonoBehaviour {
             if (parts.Contains(deskleg1) && parts.Contains(shortbeam1)
             || (parts.Contains(deskleg1) && parts.Contains(shortbeam2))
             || (parts.Contains(deskleg2) && parts.Contains(shortbeam1))
-            || (parts.Contains(deskleg2) && parts.Contains(shortbeam2)))
+            || (parts.Contains(deskleg2) && parts.Contains(shortbeam2))
+            && (!firstPart))
             {
                 print("part0: " + parts[0]);
                 print("part1: " + parts[1]);
